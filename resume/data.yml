@@ -1,92 +1,52 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Anderson
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  last: Fernandes
+about: 
 position: Software Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1996
+  location: Alagoas - Brazil
 
 experience:
-- company: Company A
+- company: Stant
   position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
-
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+  timeperiod: since August 2015
+  description: Developing web applications using Ruby and Elixir, along with Javascript and SCSS. Also working with mobile development in Android and IOS. Working with the integration beetween the platforms and with the applications DevOps using Jenkins and Docker.
+  website: https://stant.com.br
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
 - degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+  timeperiod: February 2018 - December 2021
+  description: Bachelor's degree in Information Systems, Federal Institute of Alagoas, Maceió, Brazil.
+  website: https://example.com
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
+- name: Ruby
+  level: 90
 - name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
   level: 70
+- name: Android
+  level: 50
+- name: IOS
+  level: 30
+- name: Elixir
+  level: 20
+- name: PostgreSQL
+  level: 50
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
-
-projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
-
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+  level: 50
+knowledge: Intermediate level in English.
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+  email: fernandesanderson14@gmail.com
+  phone: +55 (82) 99640-9280
+  street: Ariosvaldo Pereira Cintra - Gruta de Lourdes
+  city: Maceió
+  website: http://andersonfernandes.github.io
+  github: andersonfernandes
 lang: en
 `
